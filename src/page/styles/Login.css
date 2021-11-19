@@ -1,0 +1,35 @@
+.Login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.Login-cont{
+    width: 30%;
+    height: 40%;
+    background-color: #2a678a;
+    padding: 40px 50px;
+    color: white;
+    box-shadow: 0 0 10px 0 #5c5a5a;
+}
+
+.Login-cont h1{
+    text-align: center;
+}
+.Login-form {
+    height: 100%;
+    width: 100%;
+}
+
+.form-cont-buton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Login .alert{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
